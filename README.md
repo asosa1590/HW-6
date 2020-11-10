@@ -5,6 +5,8 @@ HW 6
 
 load("/cloud/project/acs2017_ny_data.RData")
 
+Plots are attached to the repository 
+
 > attach(acs2017_ny)
 > acs2017_ny$LABFORCE <- as.factor(acs2017_ny$LABFORCE)
 > levels(acs2017_ny$LABFORCE) <- c("NA","Not in LF","in LF")
@@ -222,6 +224,8 @@ Residual deviance: 36721  on 27230  degrees of freedom
 AIC: 36743
 
 Number of Fisher Scoring iterations: 4
+
+Plots are attached to the repository
 
 ### Prediction Models for Gender, Marital Status and Labor Foce Participation
 0 = Male 
