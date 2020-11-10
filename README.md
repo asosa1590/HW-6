@@ -1,7 +1,7 @@
 # HW-6
 HW 6
 
-
+Author: Antonio Sosa, Mirajul Fahim, Ahmed Aslam
 ````
 
 load("/cloud/project/acs2017_ny_data.RData")
