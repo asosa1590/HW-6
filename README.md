@@ -1,6 +1,8 @@
 # HW-6
 HW 6
 
+Authors: Antonio 
+
 ````
 
 load("/cloud/project/acs2017_ny_data.RData")
