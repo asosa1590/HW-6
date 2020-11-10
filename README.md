@@ -176,6 +176,9 @@ AIC: 36721
 
 Number of Fisher Scoring iterations: 4
 
+
+Our model looked at the regression model of a gender when looking at indepdendent varialbes for education, marital status, poverty and Income. We determined that an advanced degree was the most influential indicator when determining gender in our linear regression model.  Inc and wage was most likely to indicate whether the pariticpant was male. 
+
 > model_probit <- glm(female ~ AGE + I(AGE^2) + educ_advdeg + POVERTY + INCWAGE + MARST,family = binomial (link = 'probit'), data = dat_use1)
 > 
 > summary(model_probit)
