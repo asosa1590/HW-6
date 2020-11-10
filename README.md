@@ -270,6 +270,14 @@ Number of cases in table: 5331
 Number of factors: 2 
 Test for independence of all factors:
 	Chisq = 111.84, df = 1, p-value = 3.88e-26
+
+sum_diag<-sum(diag(labormodel)) #the sum of the correct predict Numbers
+sum<-sum(labormodel) #the sum of predict Numbers
+sum_diag/sum
+
+Our probabilty of success was about 57.73 percent. 
+
+
 > Gendermodel
    
 
