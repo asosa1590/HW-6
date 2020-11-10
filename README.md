@@ -223,6 +223,11 @@ AIC: 36743
 
 Number of Fisher Scoring iterations: 4
 
+### Prediction Models for Gender, Marital Status and Labor Foce Participation
+0 = Male 
+1 = Female
+
+
 > 
 > set.seed(12345)
 > index<-sample(x=2,size=nrow(dat_use1),replace=TRUE,prob=c(0.8,0.2))
